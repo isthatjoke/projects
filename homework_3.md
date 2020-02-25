@@ -24,5 +24,22 @@
  - a) sudo useradd -ou 0 -g 0 new_user
 
 5. * Создать группу developer, несколько пользователей, входящих в эту группу. Создать директорию для совместной работы. Сделать так, чтобы созданные одними пользователями файлы могли изменять другие пользователи этой группы.
+ - a) sudo groupadd new_users
+ - b) sudo useradd -M -g new_users -s /bin/bash new_user1
+ - c) sudo useradd -M -g new_users -s /bin/bash new_user2
+ - d) mkdir new_folder
+ - e) sudo chgrp new_users new_folder
+ - f) chmod -R 575 /new_folder
+
 6. * Создать в директории для совместной работы поддиректорию для обмена файлами, но чтобы удалять файлы могли только их создатели.
+ - a) cd new_folder
+ - b) mkdir new_one
+ - c) chmod 1664 new_one
+
 7. * Создать директорию, в которой есть несколько файлов. Сделать так, чтобы открыть файлы можно только, зная имя файла, а через ls список файлов посмотреть нельзя.
+ - a) mkdir again_new
+ - b) echo abra-kadabra > again_new/file1
+ - c) echo xulivtule > again_new/file2
+ - d) echo abirvalg > again_new/file3
+ - e) chmod 333 again_new
+ - f) cat again_new/file1
