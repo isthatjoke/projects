@@ -1,0 +1,493 @@
+--------public addresses----------
+9.1.1.1
+9.1.1.12
+9.1.12.1
+9.12.1.1
+92.1.1.1
+92.92.1.1
+63.209.124.237
+192.112.146.245
+168.54.194.140
+133.251.168.130
+61.212.248.247
+106.66.189.184
+111.105.218.217
+176.100.250.213
+161.77.25.83
+95.204.255.40
+17.252.250.56
+121.197.224.122
+150.239.87.159
+63.96.42.191
+161.148.153.172
+215.32.136.156
+21.45.35.174
+234.96.159.148
+169.151.235.129
+116.88.31.18
+--------non-public addresses----------
+0.0.0.0
+0.10.10.10
+0.255.255.255
+0.255.255.0
+0.255.0.0
+0.255.0.255
+0.0.0.255
+0.0.255.0
+0.255.255.10
+0.255.10.10
+0.255.10.255
+0.10.10.255
+0.10.255.10
+0.0.10.0
+0.0.0.10
+127.0.0.0
+127.10.10.10
+127.255.255.255
+127.255.255.0
+127.255.0.0
+127.255.0.255
+127.0.0.255
+127.0.255.0
+127.255.255.10
+127.255.10.10
+127.255.10.255
+127.10.10.255
+127.10.255.10
+127.0.10.0
+127.0.0.10
+10.0.0.0
+10.10.10.10
+10.255.255.255
+10.255.255.0
+10.255.0.0
+10.255.0.255
+10.0.0.255
+10.0.255.0
+10.255.255.10
+10.255.10.10
+10.255.10.255
+10.10.10.255
+10.10.255.10
+10.0.10.0
+10.0.0.10
+169.254.0.0
+169.254.255.255
+169.254.0.255
+169.254.255.0
+169.254.10.10
+169.254.10.255
+169.254.255.10
+169.254.10.0
+169.254.0.10
+172.18.0.0
+172.18.255.255
+172.18.0.255
+172.18.255.0
+172.18.10.10
+172.18.10.255
+172.18.255.10
+172.18.10.0
+172.18.0.10
+172.31.0.0
+172.31.255.255
+172.31.0.255
+172.31.255.0
+172.31.10.10
+172.31.10.255
+172.31.255.10
+172.31.10.0
+172.31.0.10
+172.16.0.0
+172.16.255.255
+172.16.0.255
+172.16.255.0
+172.16.10.10
+172.16.10.255
+172.16.255.10
+172.16.10.0
+172.16.0.10
+192.168.0.0
+192.168.0.1
+192.168.2.255
+192.168.255.255
+192.168.0.255
+192.168.255.0
+192.168.10.10
+192.168.10.255
+192.168.255.10
+192.168.10.0
+192.168.0.10
+255.255.255.255
+--------incorrect addresses----------
+63.209.124.437
+192.112.546.245
+168.54.-094.140
+133.251.568.130
+613.212.248.247
+176.500.250.213
+161.-6.25.83
+006.66.189.184
+06.66.189.184
+000.66.189.184
+95.034.255.40
+111.05.218.217
+111.005.218.217
+161.148.053.172
+161.148.003.172
+161.148.03.172
+161.148.153.072
+161.148.153.02
+161.148.153.002
+17.252.dfgd.56
+121.fg.224.122
+------files with extensions---------
+1.com
+1.com4
+2.com
+avatar.com
+bgbg.com
+lol.com
+archives.com
+archives.comp
+favicon.ccomm
+result.ccom
+shortrid.comm
+shortrid.coom
+widgets.exe
+base.exe
+changelists.exxe
+changelists.exe
+dashboard.exxe
+editormd.eexe
+fonts.exee
+output.7a68c0c8a719.exef
+responsive.exe
+widgets.exe
+widgets.exe5
+animation.jpg
+change_form.jpg
+core.jpg
+core.jpg7
+core.jpgo
+core.jjpg
+core.jpgg
+core.jppg
+DateTimeShortcuts.jpg
+jquery.init.jpg
+marked.min.jpg
+popup_response.jpg
+prepopulate_init.jpg
+RelatedObjectLookups.jpg
+urlify.jpg
+icon-addlink.png
+icon-changelink.png
+icon-yes.png
+search.png
+search.pngg
+search.ppng
+search.pnng
+search.pngr
+sorting-icons.png
+tooltag-add.png
+widgets.png
+widgets.png6
+show_dates.png
+archives.gif
+1.gif
+favicon.gif
+refresh.gif
+refresh.giif
+refresh.ggif
+output.7a68c0c8a719.gif
+fontawesome-webfont.gif
+Open+Sans_400_normal.gif
+Open+Sans_700_normal.gif3
+Open+Sans_700_normal.giff
+1.cpp
+1.cpp4
+2.cpp
+avatar.cpp
+bgbg.cpp
+lol.cpp
+archives.cpp
+archives.cppp
+favicon.ccppm
+result.ccpp
+shortrid.cppm
+shortrid.coom
+widgets.est
+base.est
+changelists.exxe
+changelists.est
+dashboard.exxe
+editormd.eest
+fonts.este
+output.7a68c0c8a719.estf
+responsive.est
+widgets.est
+widgets.est5
+animation.jar
+change_form.jar
+core.jar
+core.jar7
+core.jaro
+core.jjar
+core.jarg
+core.jppg
+DateTimeShortcuts.jar
+jquery.init.jar
+marked.min.jar
+popup_response.jar
+prepopulate_init.jar
+RelatedObjectLookups.jar
+urlify.jar
+icon-addlink.php
+icon-changelink.php
+icon-yes.php
+search.php
+search.phpg
+search.pphp
+search.pnng
+search.phpr
+sorting-icons.php
+tooltag-add.php
+widgets.php
+widgets.php6
+show_dates.php
+archives.gadget
+1.gadget
+favicon.gadget
+refresh.gadget
+refresh.giif
+refresh.ggadget
+output.7a68c0c8a719.gadget
+fontawesome-webfont.gadget
+Open+Sans_400_normal.gadget
+Open+Sans_700_normal.gadget3
+Open+Sans_700_normal.gadgetf
+---------files without extensions---------------------
+.com
+.exe
+.jpg
+.gif
+.png
+.gadget
+.jar
+.php
+.py
+.eji
+HEAD
+p' > out2.txt
+?_to_field=id&_popup=1
+admin
+archives
+1
+1.txt
+favicon
+refresh
+---------links---------------------
+http://example.com/admin/blog/tag/add/1.com
+http://example.com/1.com4
+http://example.com/admin/2.com
+http://example.com/static/admin/avatar.com
+http://example.com/static/admin/css/bgbg.com
+http://example.com/.git/lol.com
+http://example.com/owntracks/archives.com
+http://example.com/archives.comp
+http://example.com/account/favicon.ccomm
+http://example.com/admin/result.ccom
+http://example.com/admin/blog/article/add/shortrid.comm
+http://example.com/admin/blog/article/add/shortrid.coom
+http://example.com/admin/blog/article/widgets.exe
+http://example.com/admin/blog/article/base.exe
+http://example.com/admin/blog/changelists.exxe
+http://example.com/admin/blog/blogsettings/1/change/changelists.exe
+http://example.com/admin/blog/blogsettings/1/change/dashboard.exxe
+http://example.com/admin/blog/blogsettings/editormd.eexe
+http://example.com/admin/blog/blogsettings/fonts.exee
+http://example.com/admin/blog/output.7a68c0c8a719.exef
+http://example.com/admin/jsi18n/responsive.exe
+http://example.com/admin/jsi18n/widgets.exe
+http://example.com/admin/login/?next=/admin/widgets.exe5
+http://example.com/admin/login/?next=/admin/animation.jpg
+http://example.com/admin/login/?next=/admin/sites/site/change_form.jpg
+http://example.com/admin/login/?next=/admin/sites/site/core.jpg
+http://example.com/admin/core.jpg7
+http://example.com/admin/sites/core.jpgo
+http://example.com/admin/sites/core.jjpg
+http://example.com/admin/sites/site/1/change/core.jpgg
+http://example.com/admin/sites/site/1/change/core.jppg
+http://example.com/admin/sites/site/DateTimeShortcuts.jpg
+http://example.com/admin/sites/site/jquery.init.jpg
+http://example.com/marked.min.jpg
+http://example.com/article/2020/1/10/popup_response.jpg
+http://example.com/article/2020/1/14/prepopulate_init.jpg
+http://example.com/RelatedObjectLookups.jpg
+http://example.com/login/urlify.jpg
+http://example.com/login/icon-addlink.png
+http://example.com/logout/icon-changelink.png
+http://example.com/logout/icon-yes.png
+http://example.com/register/search.png
+http://example.com/register/search.pngg
+http://example.com/static/search.ppng
+http://example.com/static/admin/css/search.pnng
+http://example.com/static/admin/css/search.pngr
+http://example.com/static/admin/css/sorting-icons.png
+http://example.com/static/admin/css/tooltag-add.png
+http://example.com/static/admin/css/widgets.png
+http://example.com/static/admin/css/widgets.png6
+http://example.com/static/admin/css/show_dates.png
+http://example.com/static/admin/css/archives.gif
+http://example.com/static/admin/fonts/1.gif
+http://example.com/static/admin/fonts/favicon.gif
+http://example.com/static/admin/fonts/refresh.gif
+http://example.com/static/admin/img/refresh.giif
+http://example.com/static/admin/img/refresh.ggif
+http://example.com/static/admin/img/output.7a68c0c8a719.gif
+http://example.com/static/admin/img/fontawesome-webfont.gif
+http://example.com/static/admin/img/Open+Sans_400_normal.gif
+http://example.com/static/admin/img/Open+Sans_700_normal.gif3
+http://example.com/static/admin/js/Open+Sans_700_normal.giff
+http://example.com/static/admin/js/admin/1.cpp
+http://example.com/static/admin/js/admin/1.cpp4
+http://example.com/static/admin/js/2.cpp
+http://example.com/static/admin/js/avatar.cpp
+http://example.com/static/admin/js/bgbg.cpp
+http://example.com/static/admin/js/lol.cpp
+http://example.com/static/admin/js/archives.cpp
+http://example.com/static/admin/js/archives.cppp
+http://example.com/static/admin/js/favicon.ccppm
+http://example.com/static/admin/js/vendor/jquery/result.ccpp
+http://example.com/static/admin/js/vendor/xregexp/shortrid.cppm
+http://example.com/static/blog/fonts/shortrid.coom
+http://example.com/static/blog/fonts/widgets.est
+http://example.com/static/blog/fonts/base.est
+https://example.com/static/blog/img/changelists.exxe
+https://example.com/static/blog/js/changelists.est
+https://example.com/static/CACHE/css/dashboard.exxe
+https://example.com/static/CACHE/css/editormd.eest
+https://example.com/static/CACHE/css/fonts.este
+https://example.com/static/mdeditor/css/output.7a68c0c8a719.estf
+https://example.com/static/mdeditor/fonts/responsive.est
+https://example.com/static/mdeditor/js/widgets.est
+https://example.com/static/mdeditor/js/widgets.est5
+https://example.com/static/mdeditor/js/lib/codemirror/animation.jar
+https://example.com/static/mdeditor/js/lib/codemirror/change_form.jar
+https://example.com/static/mdeditor/js/lib/codemirror/core.jar
+https://example.com/static/mdeditor/js/lib/core.jar7
+https://example.com/static/mdeditor/js/lib/core.jaro
+https://example.com/static/mdeditor/js/lib/core.jjar
+https://example.com/static/mdeditor/js/lib/core.jarg
+https://example.com/static/mdeditor/js/lib/core.jppg
+https://example.com/static/mdeditor/js/lib/DateTimeShortcuts.jar
+https://example.com/tag/jquery.init.jar
+https://example.com/admin/blog/article/add/marked.min.jar
+https://example.com/admin/blog/article/add/popup_response.jar
+https://example.com/admin/blog/article/prepopulate_init.jar
+https://example.com/admin/blog/article/RelatedObjectLookups.jar
+https://example.com/admin/blog/urlify.jar
+https://example.com/admin/blog/blogsettings/1/change/icon-addlink.php
+https://example.com/admin/blog/blogsettings/1/change/icon-changelink.php
+https://example.com/admin/blog/blogsettings/icon-yes.php
+https://example.com/admin/blog/blogsettings/search.php
+https://example.com/admin/blog/search.phpg
+https://example.com/admin/jsi18n/search.pphp
+https://example.com/admin/jsi18n/search.pnng
+https://example.com/admin/login/?next=/admin/search.phpr
+https://example.com/admin/login/?next=/admin/sorting-icons.php
+https://example.com/admin/login/?next=/admin/sites/site/tooltag-add.php
+https://example.com/admin/login/?next=/admin/sites/site/widgets.php
+https://example.com/admin/widgets.php6
+https://example.com/admin/sites/show_dates.php
+https://example.com/admin/sites/archives.gadget
+https://example.com/admin/sites/site/1/change/1.gadget
+https://example.com/admin/sites/site/1/change/favicon.gadget
+https://example.com/admin/sites/site/refresh.gadget
+https://example.com/admin/sites/site/refresh.giif
+https://example.com/refresh.ggadget
+https://example.com/article/2020/1/10/output.7a68c0c8a719.gadget
+https://example.com/article/2020/1/14/fontawesome-webfont.gadget
+https://example.com/Open+Sans_400_normal.gadget
+https://example.com/login/Open+Sans_700_normal.gadget3
+https://example.com/login/Open+Sans_700_normal.gadgetf
+https://example.com/static/admin/js/.com
+https://example.com/static/admin/js/.exe
+https://example.com/static/admin/js/.jpg
+https://example.com/static/admin/js/.gif
+https://example.com/static/admin/js/.png
+https://example.com/static/admin/js/vendor/jquery/.gadget
+https://example.com/static/admin/js/vendor/xregexp/.jar
+https://example.com/static/blog/fonts/.php
+https://example.com/static/blog/fonts/.py
+https://example.com/static/blog/fonts/.eji
+-----------links without scheme-----------
+example.com/static/admin/css/bgbg.com
+example.com/.git/lol.com
+example.com/admin/blog/article/widgets.exe
+example.com/admin/blog/article/base.exe
+example.com/admin/blog/changelists.exxe
+example.com/marked.min.jpg
+example.com/article/2020/1/10/popup_response.jpg
+example.com/article/2020/1/14/prepopulate_init.jpg
+example.com/static/admin/css/sorting-icons.png
+example.com/static/admin/css/tooltag-add.png
+example.com/static/admin/css/widgets.png
+example.com/static/admin/img/output.7a68c0c8a719.gif
+example.com/static/admin/img/fontawesome-webfont.gif
+example.com/static/admin/img/Open+Sans_400_normal.gif
+----------------incorrect links-------------
+static/admin/css/bgbg.com
+.git/lol.com
+admin/blog/article/widgets.exe
+admin/blog/article/base.exe
+admin/blog/changelists.exxe
+marked.min.jpg
+article/2020/1/10/popup_response.jpg
+article/2020/1/14/prepopulate_init.jpg
+static/admin/css/sorting-icons.png
+static/admin/css/tooltag-add.png
+static/admin/css/widgets.png
+static/admin/img/output.7a68c0c8a719.gif
+static/admin/img/fontawesome-webfont.gif
+static/admin/img/Open+Sans_400_normal.gif
+--------------------task 5----------------
+/index.html   189.125.132.232   404 555
+/index.html   191.43.29.55
+/closeio.html 32.136.34.207   404 555
+/bundle.html  91.40.41.91
+/index.html   105.204.145.202  404 555
+user1    236.185.24.68 /closeio.html
+/closeio.html 127.0.0.1     Chrome/79.0.3945.117
+/aboutus.html 127.0.0.1     Chrome/79.0.3945.117
+/closeio.html 121.26.153.90
+/aboutus.html 179.212.146.225
+/closeio.html 236.185.24.68
+/aboutus.html 21.11.134.84
+/closeio.html 121.26.153.90     Chrome/79.0.3945.117
+/aboutus.html 179.212.146.225       Chrome/79.0.3945.117
+/index.html   214.72.226.119
+/index.html   220.56.165.59
+/closeio.html 250.127.117.33
+ergergresr  236.185.24.68 jjnieer ergwegewg w4gw4 gw4g /closeio.html
+/aboutus.html 127.0.0.1
+/aboutus.html 21.11.134.84
+AppleWebKit/537.36 121.26.153.90 /closeio.html
+/aboutus.html 179.212.146.225
+/bundle.html  53.21.230.126
+/bundle.html  253.21.230.126
+/closeio.html 127.0.0.1
+AppleWebKit/537.36 253.21.230.126 /aboutus.html
+/bundle.html  253.21.230.126
+/aboutus.html 202.120.204.224
+/index.html   98.57.42.56
+AppleWebKit/537.36 50.111.244.24 /bundle.html
+/closeio.html ::1
+/bundle.html  172.13.183.9
+/index.html   247.132.62.22
+/aboutus.html 174.7.58.16
+/index.html   ::1
+/index.html   187.123.93.82
+ivan_haski   127.0.0.1             /closeio.html
+/closeio.html 163.148.78.78
+Jay_navalski   159.158.148.85        /movie.html
