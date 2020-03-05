@@ -1,0 +1,84 @@
+1)
+
+integer = 4
+string = "Hello"
+list_1 = [1, 2, 3]
+list_2 = ['1', '2', '3']
+list_3 = ['a', 'b', 'c']
+
+print(integer)
+print(string)
+print(list_1, list_2, list_3)
+
+integer = int(input('Введите число '))
+string = input('Введите что-то ')
+
+print(integer)
+print(string)
+
+
+2)
+
+user_input = int(input('введите время в секундах'))
+hours = user_input // 3600
+minutes = (user_input - hours * 3600) // 60
+seconds = user_input % 60
+print(f'{hours}:{minutes}:{seconds}')
+
+ 
+3)
+
+user_input = input('введите число')
+print(int(user_input) + int(user_input + user_input) + int(user_input + user_input + user_input))
+
+
+4)
+
+Решение а:
+
+import math
+user_input = list(input('Введите любое целое положительное число '))
+max_number = max(user_input)
+print(user_input)
+print(max_number)
+
+
+решение б:
+
+ user_input = int(input("Введите любое целое положительное число: "))
+user_input_reminder = user_input % 10
+user_input //= 10
+while user_input > 0:
+    if user_input % 10 > user_input_reminder:
+        user_input_reminder = user_input % 10
+    user_input //= 10
+print(user_input_reminder)
+
+ 
+
+5)
+
+gain = int(input('введите сумму выручки '))
+expenses = int(input('введите сумму издержек '))
+
+if (gain > expenses):
+  print('Компания работает с прибыльным финансовым результатом')
+  efficiency = (gain - expenses) / gain
+  print('Рентабельность компании составляет ~ {}'.format("%.2f" % efficiency))
+  employees = int(input('Сколько сотрудников работает в компании? '))
+  print('Прибыль компании в рассчете на каждого сотрудника ' + str((gain - expenses) / employees))
+else:
+  print('Компани работает с убыточным финансовым результатом')
+
+ 
+
+6)
+
+run_length = int(input('Сколько км пробежал в первый день '))
+run_goal = int(input('Укажите цель в км '))
+i = 1
+while run_length <= run_goal:
+  run_length = run_length * 1.1
+  i += 1
+
+print(f'Вы достигните своей цели за {i} дней')
