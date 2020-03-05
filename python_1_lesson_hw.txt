@@ -23,7 +23,7 @@ user_input = int(input('введите время в секундах'))
 hours = user_input // 3600
 minutes = (user_input - hours * 3600) // 60
 seconds = user_input % 60
-print(f'{hours}:{minutes}:{second_remains}')
+print(f'{hours}:{minutes}:{seconds}')
 
  
 3)
