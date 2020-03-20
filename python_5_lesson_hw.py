@@ -122,4 +122,21 @@ print(my_dict)
 #
 # Подсказка: использовать менеджеры контекста.
 
-'''пока не доделал. планирую сдать 21.3.2020'''
+import json
+firms = {}
+ave = []
+ave_profit = {}
+full_list = [firms, ave_profit]
+with open("my_file.txt", encoding="utf-8") as file:
+    for line in file:
+        tmp = line[:(line.find(" "))]
+        a = (line.rstrip()).split(" ")
+        if int(a[2]) > int(a[3]):
+            tmp2 = int(a[2]) - int(a[3])
+            firms.update({tmp: tmp2})
+            ave.append(tmp2)
+ave_profit.update({"average_profit": (sum(ave))})
+
+with open("my_file.json", "w", encoding="utf-8") as j_file:
+    json.dump(full_list, j_file)
+
