@@ -194,7 +194,7 @@ insert into friendship (user_id, friend_id, status_id) values
 select sum(lc.likes_count) likes_count from  
   (select 
     (select count(*) from likes 
-      where user_id = p.user_id) as likes_count
+      where user_id = p.user_id and target_type_id = 2) as likes_count
     from profiles p
     order by birthdate desc limit 10)lc;  
 
@@ -221,8 +221,8 @@ select id, (temp.summ_mess + temp.summ_likes) summ_all from
     (select count(*) from messages 
       where from_user_id = u.id) summ_mess, 
     (select count(*) from likes 
-      where target_id = u.id) summ_likes
+      where user_id = u.id) summ_likes
     from users u)temp
-  order by summ_all desc limit 10;
+  order by summ_all asc limit 10;
 
 
