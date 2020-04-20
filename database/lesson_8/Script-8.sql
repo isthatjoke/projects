@@ -55,7 +55,7 @@ select sum(summ_likes) likes_summary from (select tmp.summ summ_likes from
 (select u.id, u.first_name, count(*) summ, p.birthdate day_of_birth from users u
 left join
 profiles p on u.id = p.user_id 
-join 
+left join 
 likes l on u.id = target_id where target_type_id = (select id from target_types where name = "users")
 group by u.id, u.first_name, p.birthdate)tmp
 order by tmp.day_of_birth desc limit 10) summ_likes;
@@ -103,6 +103,12 @@ order by summ asc limit 10;
 select u.id id, (count(distinct(m.id)) + count(distinct(l.id))) summ_likes from users u
 left join messages m on m.from_user_id = u.id 
 join likes l on l.user_id = u.id
+group by u.id
+order by summ_likes asc limit 10;
+
+select u.id id, (count(distinct(m.id)) + count(distinct(l.id))) summ_likes from users u
+left join messages m on m.from_user_id = u.id 
+left join likes l on l.user_id = u.id
 group by u.id
 order by summ_likes asc limit 10;
 
