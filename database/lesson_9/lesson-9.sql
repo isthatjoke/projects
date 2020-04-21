@@ -56,14 +56,16 @@ show grants;
 
 drop function if exists hello;
 create function hello()
-returns varchar(30) deterministic
+returns varchar(30) not deterministic
 begin 
 	declare some_text varchar(30);
-    if(select curtime() between ("06:00:01") and ("12:00:00")) then
+	declare cur_time time;
+	set cur_time = curtime();
+    if(select cur_time between cast("06:00:01" as time) and cast("12:00:00" as time)) then
     set some_text = "Доброе утро";
-    elseif(select curtime() between ("12:00:01") and ("18:00:00")) then
+    elseif(select cur_time between cast("12:00:01" as time) and cast("18:00:00" as time)) then
     set some_text = "Добрый день";
-    elseif(select curtime() between ("18:00:01") and ("23:59:59")) then
+    elseif(select cur_time between cast("18:00:01" as time) and cast("23:59:59" as time)) then
     set some_text = "Добрый вечер";
     else
     set some_text = "Доброй ночи"; 
@@ -73,6 +75,7 @@ end;
 
 select hello();
 
+SET GLOBAL log_bin_trust_function_creators = 1;
 
 
 /*В таблице products есть два текстовых поля: name с названием товара 
