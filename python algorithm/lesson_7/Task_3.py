@@ -21,21 +21,9 @@ while exit_code != 1:
     for el in array:
         if el <= array[guess_num]:
             count += 1
-        if count == middle_num:
-            print(el)
-            exit_code = 1
-            break
+    if count == middle_num:
+        print(array[guess_num])
+        exit_code = 1
+        break
     count = 0
     guess_num += 1
-
-
-
-
-
-
-
-
-
-
-
-
