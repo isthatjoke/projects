@@ -15,10 +15,8 @@ class Matrix:
         self.count = len(self.lst)
         self.subcount = len(self.lst[0])
 
-
     def __str__(self):
         return '\n'.join(['\t'.join([str(j) for j in i]) for i in self.lst])
-
 
     def __add__(self, other):
         result = [[0 for i in range(self.subcount)] for i in range(self.count)]
