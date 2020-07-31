@@ -50,6 +50,7 @@ class Cell:
             print(f'{cell_count}\n'*int(cell_in_row) +
                   f'{cell_remains}')
 
+
 a = Cell(10)
 b = Cell(20)
 print(1)

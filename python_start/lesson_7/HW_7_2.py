@@ -25,5 +25,6 @@ class Cloth:
     def result(self):
         return f'Расход ткани на пошив костюма - {self.suit_size}, пальто - {self.coat_size}'
 
+
 a = Cloth('yow')
 print(1)
