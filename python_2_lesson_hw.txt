@@ -1,0 +1,149 @@
+#1
+my_list = [1, "1", True, (1, 0), {"one": 1}, [1], {1}]
+for itm in my_list:
+    print(type(itm))
+
+
+#2
+
+my_list = []
+i = 1
+j = 0
+while True:
+    user_input = input("text your value. if u want to stop, just print 'break' ")
+    if user_input == "break":
+        break
+    my_list.append(user_input)
+    if not len(my_list) % 2:
+        print(my_list)
+        my_list.insert(i, my_list.pop(j))
+        i += 2
+        j += 2
+        print(f'and now two last indexes was changed on its positions {my_list}')
+    else:
+        print(my_list)
+
+
+#3
+#a
+user_input = input("Введите число, чтобы понять, к какому времени года относится данный месяц ")
+my_dict = {
+    '1': 'зима',
+    '2': 'зима',
+    '3': 'весна',
+    '4': 'весна',
+    '5': 'весна',
+    '6': 'лето',
+    '7': 'лето',
+    '8': 'лето',
+    '9': 'осень',
+    '10': 'осень',
+    '11': 'осень',
+    '12': 'зима'
+    }
+if user_input in my_dict.keys():
+    print(my_dict.get(user_input))
+else:
+    print("Ошибочка вышла...")
+
+#3
+#b
+user_input = input("Введите число, чтобы понять, к какому времени года относится данный месяц ")
+my_list = ['оп-па', 'зима', 'зима', 'весна', 'весна',
+           'весна', 'лето', 'лето', 'лето', 'осень',
+           'осень', 'осень', 'зима']
+if user_input.isdigit():
+    if int(user_input) < len(my_list) and int(user_input) != 0:
+        print(my_list[int(user_input)])
+    else:
+        print("Такой цифры месяца не существует")
+else:
+    print("Чушь какая-то...")
+
+
+#4 сначала вышло стремное решение. только потом вспомнил про enumerate))
+#a
+user_input = input("Введите несколько слов ")
+my_list = user_input.split()
+i = 1
+for itm in my_list:
+    my_str = "".join(itm)
+    print(str(i) + ". " + my_str[0:10])
+    i += 1
+#b
+
+user_input = input("Введите несколько слов ")
+my_list = user_input.split()
+for idx, itm in enumerate(my_list, 1):
+    print(idx, ".", itm[0:10])
+
+#5
+
+my_list = []
+while True:
+    user_input = input("enter your integer. if u want to stop, just print 'break' ")
+    if user_input.isdigit():
+        my_list.append(user_input)
+        my_list.sort()
+        my_list.reverse()
+        print(my_list)
+    elif user_input == "break":
+        print(f'your list - {my_list}')
+        print("program stopped")
+        break
+    else:
+        print("you should type only integers or 'break' if u want to stop")
+
+
+#6
+
+position = 1
+goods = []
+
+def goods_statistic(goods_list):
+    good_stat = {}
+    tmp_name = []
+    tmp_price = []
+    tmp_quantity = []
+    tmp_unit = []
+
+    for itm in goods:
+        tmp_name.append(itm[1].get('название'))
+        tmp_price.append(itm[1].get('цена'))
+        tmp_quantity.append(itm[1].get('количество'))
+        tmp_unit.append(itm[1].get('ед'))
+
+    good_stat.update({'название': tmp_name, 'цена': tmp_price, 'количество': tmp_quantity, 'ед': tmp_unit})
+    print(good_stat)
+
+
+print("Из программы внесения данных можно выйти, написав 'break' в названии товара.\nТакже можно просмотреть "
+      "уже созданный список товаров, если ввести в поле ввода названия товара команду 'print'.\n"
+      "Вывести аналитический срез по списку товаров - ввести в названии товара команду 'stat' ")
+while True:
+    input_name = input("Введите название товара ")
+    if input_name == "break":
+        print(f'Список товаров {goods}')
+        print("Программа закончила работу")
+        break
+    elif input_name == "print":
+        print(f'Список товаров {goods}')
+    elif input_name == "stat":
+        goods_statistic(goods)
+    else:
+        input_price = input("Введите стоимость товара ")
+        while input_price.isalpha():
+            print("Нужно указать числовое значение")
+            input_price = input("Введите стоимость товара ")
+        input_currency = input("Введите валюту стоимости товара ")
+        input_quantity = input("Введите количество товара ")
+        while input_quantity.isalpha():
+            print("Нужно указать числовое значение")
+            input_quantity = input("Введите количество товара ")
+        input_unit = input("Введите единицу измерения количества товара ")
+        description = {}
+        description.update({'название': input_name, 'цена': int(input_price), 'валюта': input_currency,
+                            'количество': int(input_quantity), 'ед': input_unit})
+        positions = (position, description)
+        goods.append(positions)
+        position += 1
