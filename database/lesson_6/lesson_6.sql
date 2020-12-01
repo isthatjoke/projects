@@ -226,3 +226,4 @@ select id, (temp.summ_mess + temp.summ_likes) summ_all from
   order by summ_all asc limit 10;
 
 
+
